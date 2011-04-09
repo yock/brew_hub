@@ -1,5 +1,6 @@
 Crafthub::Application.routes.draw do
   resources :batches
+  match '/signup',  :to => 'users#new'
 
   resources :styles
 
