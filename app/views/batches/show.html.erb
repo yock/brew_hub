@@ -1,0 +1,40 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @batch.name %>
+</p>
+
+<p>
+  <b>User:</b>
+  <%= @batch.user_id %>
+</p>
+
+<p>
+  <b>Style:</b>
+  <%= @batch.style_id %>
+</p>
+
+<p>
+  <b>Brew date:</b>
+  <%= @batch.brew_date %>
+</p>
+
+<p>
+  <b>Rack date:</b>
+  <%= @batch.rack_date %>
+</p>
+
+<p>
+  <b>Bottle date:</b>
+  <%= @batch.bottle_date %>
+</p>
+
+<p>
+  <b>Comments:</b>
+  <%= @batch.comments %>
+</p>
+
+
+<%= link_to 'Edit', edit_batch_path(@batch) %> |
+<%= link_to 'Back', batches_path %>

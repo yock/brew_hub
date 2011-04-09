@@ -1,0 +1,36 @@
+# == Schema Information
+# Schema version: 20110405004432
+#
+# Table name: batches
+#
+#  id          :integer         not null, primary key
+#  name        :string(255)
+#  user_id     :integer
+#  style_id    :integer
+#  brew_date   :date
+#  rack_date   :date
+#  bottle_date :date
+#  comments    :text
+#  created_at  :datetime
+#  updated_at  :datetime
+#
+
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  name: MyString
+  user_id: 1
+  style_id: 1
+  brew_date: 2011-04-04
+  rack_date: 2011-04-04
+  bottle_date: 2011-04-04
+  comments: MyText
+
+two:
+  name: MyString
+  user_id: 1
+  style_id: 1
+  brew_date: 2011-04-04
+  rack_date: 2011-04-04
+  bottle_date: 2011-04-04
+  comments: MyText
